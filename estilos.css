@@ -1,0 +1,63 @@
+/* el simbolo * es un comodin para 
+aplicar estilo a todos los tags
+html */
+
+
+* {
+color: gray;
+/*border: 1px solid black;*/
+}
+
+
+h2 {
+	float: left;
+}
+
+h3 {
+	float: right;
+}
+
+#cabecera {
+background-color: white;
+float: left;
+width: 100%;
+}
+
+#cuerpo {
+	background-color: rgb(240,240,240);
+	float: left;
+	width: 100%;
+}
+
+.subCuerpo {
+	width: 42%;
+	float: left;
+	margin: 10px;
+}
+
+.social p {
+	text-transform: uppercase ;
+	border: 1px solid black;
+}
+
+.subtitulo  p {
+	font-size: 12px; 
+}
+
+a {
+ font-size: 11px;
+ text-decoration: none;
+}
+
+#check {
+	font-size: 11px;
+}
+
+.subCuerpo div button{
+background-color: IndianRed;
+width: 200px;
+border: none;
+color: white;
+padding: 10px;
+text-transform: uppercase;
+}
